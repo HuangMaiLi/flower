@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商品分组",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-ui/uni-search-bar/uni-search-bar"
+  }
+}

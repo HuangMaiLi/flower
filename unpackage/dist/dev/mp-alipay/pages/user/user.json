@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "个人中心",
+  "usingComponents": {
+    "com-nav": "/pages/user/components/com-nav"
+  }
+}

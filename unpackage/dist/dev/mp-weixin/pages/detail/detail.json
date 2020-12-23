@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "详情展示",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "uni-list": "/components/uni-ui/uni-list/uni-list",
+    "uni-list-item": "/components/uni-ui/uni-list-item/uni-list-item",
+    "uni-goods-nav": "/components/uni-ui/uni-goods-nav/uni-goods-nav",
+    "uni-popup-share": "/components/uni-popup/uni-popup-share",
+    "uni-popup-message": "/components/uni-popup/uni-popup-message"
+  }
+}

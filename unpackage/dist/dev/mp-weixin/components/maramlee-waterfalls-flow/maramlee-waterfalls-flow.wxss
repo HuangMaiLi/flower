@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.waterfalls-box.data-v-b7348238 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.waterfalls-box .waterfalls-list.data-v-b7348238 {
+  width: calc((100% - var(--offset) * (var(--cols) - 1)) / var(--cols));
+  position: absolute;
+  background-color: #fff;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  left: calc(-50% - var(--offset));
+}
+.waterfalls-box .waterfalls-list .waterfalls-list-image.data-v-b7348238 {
+  width: 100%;
+  will-change: transform;
+  -webkit-border-radius: 6px 6px 0 0;
+          border-radius: 6px 6px 0 0;
+  display: block;
+}
+.waterfalls-box .waterfalls-list .waterfalls-list-image.single.data-v-b7348238 {
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+}
+

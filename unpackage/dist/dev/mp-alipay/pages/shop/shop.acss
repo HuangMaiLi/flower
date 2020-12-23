@@ -1,0 +1,84 @@
+@font-face {font-family: "iconfont";
+  src: url(/static/iconfont/iconfont.eot); /* IE9 */
+  src: url(/static/iconfont/iconfont.eot#iefix) format('embedded-opentype'), 
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANoAAsAAAAAB4gAAAMcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCYIJdATYCJAMMCwgABCAFhG0HSBu1BhEVlMdkPxJs3OJiZeU8yUWV0CK9CZ6nNe39+ZPtbJICgmoPgdSxBALF4IjVSUCW102AgDvfb9MOh6qQEYbteB58l2f8OwI7F2grjKiQFbJ/fzhtis93l+fyfmtvjrooLg0o0LEGRVYgAXnD2E0EDfE4BAiTp4Z0yHsMwGEB4wSQGTx5LC5jwjZUCw7Bq1hqkQ2EcGaluQOs59+XL9TmwBBSwNQ+kzpOoM17ed9cFwQLGEEpiKdzAMYqUKAGWJBRla4haJSqoYQ9lW0u9rAIZqpoEMBFvsbb6B/PgHiAyigAFXLawHvBSri6ufwCBgAFwANigEnAWZWZErBoFNyUGU2cfvfugHv3Bj54MPj+/SG37xfte9D51r3C3XeHVfE9eld66MPwwPz7jwfVkjb5dx+OXTXo/n1kWDg453iweqDtuLdgQLf2u6NG2XpodNVR0YXHVh+ByNYjCw4HS3vIRAhJdcfEHpLIuzMi51UVtG9vDDYXFvIptfUH9clTezDDDQpnzpRRxgSz08Kz3j1rftrINbP2/Lk1CpFihJnpPy1B3oCeBV3zZs7M61rQ8zBCpp85M929Z8Hhirr+/7forVu6BSIlRJYUdNtFXGIclueou7x8ebUwO5ExAARbdYUO5ZmXulsL/tNvuNd5Xf3o+Bb/XMQC8CTYXCMHg62W7hbcXbgF/oq4Y5P1pcCs1hVhUehWGqUCGJCJ6SUA+JI8H65J7ZwAwWXEBhhiyAXFUUK1zBoIEaEBeDhaQ5hqnVdHSDYTRawPVFkqgZDgFBjiuAKKK8GXapk/CEnzB09CZwgbVPKWEWWx115QKhqqPsT1PBlkVU9UX2G3oZS0lLOeEMdRioMony0wQaaY4XabqBoyMo+US6dhGGZaZO5Qa9CqLlkYmqo3BfU8HjztCSgpaJDKB2G12cTQzsorfP4KrM2gJA0NPcEnEA73T2KBqAO1UE2dGm7lFWdnJZQyiCFmI5JLDhhgakaW6kEdqKlAOyCxyIRKK9NVFSyvGd9vDxAGbtSMqFgigysuZ2U/vbiWOy4n/00QByd7OAA=') format('woff2'),
+  url(/static/iconfont/iconfont.woff) format('woff'),
+  url(/static/iconfont/iconfont.ttf) format('truetype'), 
+  url(../../static/img/iconfont.8e5d2afd.svg#iconfont) format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weibiaoti-3:before {
+  content: "\e601";
+}
+
+.icon-shijian-xianxing:before {
+  content: "\e63b";
+}
+
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.hot_shop {
+  background: #eee;
+}
+.hot_shop .shop_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 15rpx;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.hot_shop .shop_list .shop_item {
+  width: 750rpx;
+  margin-bottom: 15rpx;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.hot_shop .shop_list .shop_item swiper {
+  height: 320rpx;
+  width: 100%;
+}
+.hot_shop .shop_list .shop_item swiper swiper-item image {
+  height: 320rpx;
+  width: 100%;
+}
+.hot_shop .shop_list .shop_item .word1 {
+  width: 640rpx;
+  margin-left: 10px;
+}
+.hot_shop .shop_list .shop_item .word1 .name {
+  margin-top: 40px;
+  padding-bottom: 10px;
+  font-size: 48rpx;
+  display: block;
+  border-bottom: 1px solid #C0C0C0;
+}
+.hot_shop .shop_list .shop_item .word1 .address {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 32rpx;
+  display: block;
+  border-bottom: 1px solid #C0C0C0;
+}
+.hot_shop .shop_list .shop_item .word1 .time {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 32rpx;
+  display: block;
+}
+

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.pics {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.pics .left {
+  width: 150rpx;
+  height: 1280rpx;
+}
+.pics .left view {
+  padding: 28rpx 20rpx;
+  color: #888888;
+  font-size: 12px;
+  background-color: #f8f8f8;
+}
+.pics .left .active {
+  padding-left: 16rpx;
+  background-color: white;
+  border-left: 4rpx solid #65c4aa;
+  color: black;
+  font-weight: 600;
+}
+.pics .right {
+  height: 1280rpx;
+  width: 600rpx;
+  color: #535353;
+  font-size: 27rpx;
+}
+.pics .right .list-title {
+  font-size: 22rpx;
+  color: #9d9d9d;
+  margin: 20rpx;
+}
+.pics .right .item .labelTitle {
+  margin-left: 18rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.pics .right .item .card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 20rpx 0;
+}
+.pics .right .item .card .img {
+  margin-left: 14rpx;
+  -webkit-border-radius: 14rpx;
+          border-radius: 14rpx;
+  width: 200rpx;
+  height: 200rpx;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.pics .right .item .card .content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-left: 18rpx;
+  position: relative;
+}
+.pics .right .item .card .content .sell_point {
+  margin-top: 10rpx;
+  font-size: 22rpx;
+  color: #a7a7a7;
+}
+.pics .right .item .card .content .activity_price {
+  color: #65c0aa;
+  position: absolute;
+  bottom: 0;
+}
+

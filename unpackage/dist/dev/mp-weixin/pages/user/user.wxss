@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.icon .mix-list-cell.b-b:after {
+  left: 90rpx;
+}
+.mix-list-cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+          align-items: baseline;
+  padding: 20rpx 30rpx;
+  line-height: 60rpx;
+  position: relative;
+}
+.mix-list-cell.cell-hover {
+  background: #fafafa;
+}
+.mix-list-cell.b-b:after {
+  left: 30rpx;
+}
+.mix-list-cell .cell-icon {
+  -webkit-align-self: center;
+          align-self: center;
+  width: 56rpx;
+  max-height: 60rpx;
+  font-size: 38rpx;
+}
+.mix-list-cell .cell-more {
+  -webkit-align-self: center;
+          align-self: center;
+  font-size: 30rpx;
+  color: #606266;
+  margin-left: 10px;
+}
+.mix-list-cell .cell-tit {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 28rpx;
+  color: #303133;
+  margin-right: 10rpx;
+}
+.mix-list-cell .cell-tip {
+  font-size: 26rpx;
+  color: #909399;
+}
+
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.dianpu {
+  margin-left: 360rpx;
+}
+page {
+  height: 1570rpx;
+  background: #bcce96;
+}
+.btn-hover {
+  background: #f2f2f2 !important;
+}
+.user .user-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 60vw;
+  padding: 30rpx;
+  z-index: 9;
+  -webkit-border-radius: 0 0 5% 5%;
+          border-radius: 0 0 5% 5%;
+  background: url("http://img.yzcdn.cn/upload_files/2020/03/22/FkeSLPLhfDbSYp0L0iXtUzP6H7k0.jpeg") no-repeat;
+  background-size: cover;
+}
+.user .user-wrap .setting {
+  color: #fff;
+  top: 60rpx;
+  left: 60rpx;
+  font-size: 50rpx;
+}
+.user .user-wrap .info {
+  text-align: center;
+}
+.user .user-wrap .info .avatar {
+  width: 150rpx;
+  height: 150rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.user .user-wrap .info .nickname {
+  color: #fff;
+  font-size: 35rpx;
+}
+.user .order-status {
+  padding: 0 20rpx;
+  margin-top: -15vw;
+}
+.user .order-status .status-wrap {
+  -webkit-border-radius: 15rpx;
+          border-radius: 15rpx;
+  overflow: hidden;
+}
+.user .order-status .status-wrap .status-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: #fff;
+  padding-top: 20rpx;
+  padding-bottom: 30rpx;
+  z-index: 99;
+}
+.user .order-status .status-wrap .status-list .status-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.user .order-status .status-wrap .status-list .status-item .item-icon {
+  line-height: 1;
+  font-size: 40rpx;
+  color: #000000;
+}
+.user .order-status .status-wrap .status-list .status-item .item-text {
+  font-size: 27rpx;
+  color: #000000;
+  margin-top: 5rpx;
+}
+.user .com-item {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-top: 20rpx;
+}
+.user .com-item .com-wrap {
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  overflow: hidden;
+}
+.user .cell {
+  height: 80rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+.user .cell:active {
+  background: #f2f2f2;
+}
+.user .cell:last-child {
+  border-bottom: none !important;
+}
+.user .cell .cell-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.user .cell .cell-left .cell-icon {
+  width: 35rpx;
+  height: 35rpx;
+}
+.user .cell .cell-left .cell-text {
+  color: #333333;
+  font-size: 27rpx;
+  margin-left: 15rpx;
+}
+.user .cell .cell-left .wode {
+  color: #000000;
+  font-weight: 670;
+  font-size: 34rpx;
+}
+.user .cell .cell-left .look {
+  font-size: 25rpx;
+  margin-left: 330rpx;
+}
+.user .cell .iconfont {
+  color: #040404;
+}
+

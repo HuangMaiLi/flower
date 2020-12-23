@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "花花万物",
+  "usingComponents": {
+    "uni-search-bar": "/components/uni-ui/uni-search-bar/uni-search-bar"
+  }
+}

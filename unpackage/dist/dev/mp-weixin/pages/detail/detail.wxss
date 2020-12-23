@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.home swiper {
+  height: 740rpx;
+}
+.home swiper image {
+  width: 750rpx;
+  height: 750rpx;
+}
+.home .price {
+  background-color: white;
+  padding-top: 20rpx;
+  height: 170rpx;
+}
+.home .price .flowerPrice {
+  font-weight: 600;
+  margin-left: 30rpx;
+  margin-bottom: 15rpx;
+  font-size: 20px;
+  color: #65C4AA;
+}
+.home .price .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: 40rpx;
+  font-size: 15px;
+}
+.home .price .text .mess {
+  width: 600rpx;
+}
+.home .price .text .share {
+  margin-right: -20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  text-align: center;
+  -webkit-border-radius: 16rpx;
+          border-radius: 16rpx;
+}
+.home .postPrice {
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  background-color: white;
+  height: 86rpx;
+  padding-left: 30rpx;
+  margin-top: 20rpx;
+}
+.home .postPrice view {
+  margin-right: 20rpx;
+  font-size: 14px;
+}
+.home .server {
+  margin-top: 20rpx;
+}
+.home,
+.home .flower {
+  height: 200rpx;
+  margin-top: 20rpx;
+  background-color: white;
+}
+.home .flowertop,
+.home .flower .flowertop {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+}
+.home .flowertop image,
+.home .flower .flowertop image {
+  height: 100rpx;
+  width: 100rpx;
+  margin-top: 40rpx;
+  margin-left: 40rpx;
+}
+.home .flowertop .shopName,
+.home .flower .flowertop .shopName {
+  margin-top: 70rpx;
+  margin-left: 20rpx;
+}
+.home .flowertop .goIndex,
+.home .flower .flowertop .goIndex {
+  background-color: #ffffff;
+  width: 130rpx;
+  text-align: center;
+  height: 50rpx;
+  font-size: 12px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  color: #65c4aa;
+  border: 1px solid #65c4aa;
+  line-height: 50rpx;
+  margin-top: 70rpx;
+  position: absolute;
+  right: 30rpx;
+}
+.home .flowerbottom,
+.home .flower .flowerbottom {
+  margin-top: 20rpx;
+}
+.home .content {
+  margin-top: 80rpx;
+  padding-bottom: 80rpx;
+}
+.home .goods_nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.home .goods_nav .num {
+  font-weight: bold;
+  font-size: 15px;
+  z-index: 9999999;
+  width: 17px !important;
+  height: 17px !important;
+  color: red !important;
+  position: absolute !important;
+  top: 2px !important;
+  left: 83px !important;
+  text-align: center !important;
+  line-height: 15px !important;
+}
+
